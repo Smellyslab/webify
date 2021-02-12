@@ -8,7 +8,6 @@ simple http webserver maker in golang for golang but you need basic understandin
 
  func testHandler(w http.ResponseWriter, r *http.Request) {
 
-  fmt.Println("About")
   
   err := fmt.FprintF(w, "Hello")
   
